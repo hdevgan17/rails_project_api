@@ -1,0 +1,84 @@
+/* General Body Styling */
+body {
+    padding-top: 100px;
+}
+
+/* Custom Table Styles */
+.table-custom {
+    --custom-table-bg-color: #fff;
+    --custom-table-text-color: #000;
+}
+
+.dogs-table {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.owners-table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.table-custom thead th, .table-custom thead td {
+    color: var(--custom-table-text-color);
+}
+
+.table-custom td {
+    vertical-align: middle;
+    width: auto;
+}
+
+.table-custom th {
+    font-weight: bold;
+    color: var(--custom-table-text-color);
+}
+
+/* Dog Image Styling */
+.dog-thumbnail, .dog-profile-image {
+    border-radius: 12px;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    height: 100px;
+    object-fit: cover;
+}
+
+.dog-card-thumbnail {
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Navbar Styling */
+.navbar-item.is-active {
+    background-color: transparent;
+    color: #fff;
+}
+
+/* Pagination Styling */
+.pagination-custom {
+    margin-top: 150px;
+}
+
+.pagination-link.is-active {
+    background-color: hsl(171, 100%, 41%);
+    color: #000;
+    border-color: hsl(171, 100%, 41%);
+}
+
+.pagination-link, .pagination-next, .pagination-previous {
+    color: #000;
+}
+
+/* Custom Card Styles */
+.card-custom {
+    border: 0.5px solid #000;
+}
+
+.card-shadow {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Dogs Grid Layout */
+.dog-grid-layout {
+    max-width: 1050px;
+    margin: 0 auto;
+}
